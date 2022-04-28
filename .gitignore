@@ -1,0 +1,30 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Java
+target/
+
+# Idea
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Root properties with creadentials
+/*.properties
+
+# Maven
+dependency-reduced-pom.xml
