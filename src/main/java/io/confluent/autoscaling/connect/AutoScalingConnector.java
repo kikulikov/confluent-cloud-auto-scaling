@@ -12,7 +12,6 @@ import static io.confluent.autoscaling.connect.AutoScalingConfig.CLUSTERS;
 
 public class AutoScalingConnector extends SourceConnector {
 
-    public static final String CLUSTER_ID = "auto.scaling.cluster.id";
     private static final Logger log = LoggerFactory.getLogger(AutoScalingConnector.class);
     private static final String CONNECTOR_NAME = AutoScalingConnector.class.getSimpleName();
     private AutoScalingConfig config;

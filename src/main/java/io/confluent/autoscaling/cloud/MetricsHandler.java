@@ -47,7 +47,7 @@ public class MetricsHandler {
         }
     }
 
-    /**
+    /*
      * What should I do if a query returns a 5xx response code?
      * We recommended retrying these type of responses. Usually, this is an indication
      * of a transient server-side issue. You should design your client implementations
