@@ -106,6 +106,10 @@ Run in a standalone mode
 connect-standalone connect-standalone.properties connect-auto-scaling.properties
 ```
 
+The examples of Kafka Connect and application configuration files can be seen at 
+[connect-standalone.properties](src/main/resources/connect-standalone.properties) 
+and [connect-auto-scaling.properties](src/main/resources/connect-auto-scaling.properties)  
+
 For more details on the standalone mode please see 
 [Configuring and Running Workers](https://docs.confluent.io/home/connect/self-managed/userguide.html#standalone-mode).
 
